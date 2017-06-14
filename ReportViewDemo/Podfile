@@ -1,0 +1,16 @@
+target 'ReportViewDemo' do
+   pod 'AFNetworking'
+   pod 'MJRefresh'
+   pod 'MJExtension'
+   pod 'MBProgressHUD'
+   pod 'SDWebImage'
+   
+  target 'ReportViewDemoTests' do
+    inherit! :search_paths
+  end
+
+  target 'ReportViewDemoUITests' do
+    inherit! :search_paths
+  end
+
+end
